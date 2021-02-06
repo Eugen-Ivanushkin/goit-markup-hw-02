@@ -1,0 +1,85 @@
+:root {
+  --title-text-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-color-black: #000000;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  color: var(--text-color);
+  font-family: Roboto;
+  font-style: normal;
+}
+
+/* NAVIGATION */
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.logo {
+  color: var(--primary-color-black);
+  text-decoration: none;
+
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.site-nav-link {
+  color: var(--title-text-color);
+  text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15px;
+}
+
+.site-nav-link:hover {
+  color: var(--accent-color);
+}
+
+.contacts-link{
+  color: var(--text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15px;
+}
+
+.contacts-link:hover {
+  color: var(--accent-color);
+}
+
+/* HERO */
+
+.hero {
+  background-color: var(--text-color);
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.service-batton {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+
