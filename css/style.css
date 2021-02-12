@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --primary-color-black: #000000;
   --primary-white-color: #ffffff;
+  --background-color: #f5f4fa;
 }
 
 body {
@@ -40,6 +41,10 @@ body {
   color: var(--accent-color);
 }
 
+.site-nav .site-nav-link.current {
+  color: var(--accent-color);
+}
+
 .contacts-link {
   color: var(--text-color);
   text-decoration: none;
@@ -56,7 +61,7 @@ body {
 /* HERO */
 
 .hero {
-  background-color: var(--text-color);
+  background-color: #2f303a;
 }
 
 .hero-title {
@@ -124,7 +129,7 @@ body {
 /* OUR TEAM */
 
 .our-team {
-  background-color: #f5f4fa;
+  background-color: var(--background-color);
 }
 
 .name {
@@ -150,11 +155,7 @@ footer {
 
 .logo-footer {
   color: var(--primary-white-color);
-  text-decoration: none;
 
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
   line-height: 1.38;
 }
 
@@ -184,7 +185,7 @@ footer {
 }
 
 .our-projects-filter-button {
-  background-color: #f5f4fa;
+  background-color: var(--background-color);
   color: var(--title-text-color);
   border-radius: 4px;
 
