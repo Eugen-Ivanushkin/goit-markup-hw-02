@@ -177,7 +177,7 @@ footer {
   line-height: 1.71;
 }
 
-/* PORTFOLIO */
+/* ===PORTFOLIO=== */
 
 .our-projects-filter-button:hover {
   color: var(--primary-white-color);
@@ -200,6 +200,10 @@ footer {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+}
+
+.projects-link {
+  text-decoration: none;
 }
 
 .project-text {
